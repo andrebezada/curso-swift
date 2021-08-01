@@ -28,5 +28,21 @@ let someNumber = 00000097.540
 let oneMillion = 1_000_000
 let justMoreThanAMillion = 1_000_000.000_000_1
 
+//errores de tipo de dato
 //let cannotBeNegative : UInt8 = -1
 //let tooBig : UInt8 = UInt8.max + 1
+
+let twoThousand: UInt16 = 2_000
+let one : UInt8 = 1
+let twoThousandAndOne = twoThousand + UInt16(one)
+
+let three = 3
+let decimalNumber = 0.1415
+let piNumber = Double(three) + decimalNumber
+
+let integerPi = Int(piNumber)
+
+typealias AudioSample = UInt16
+var maxAmplitude = AudioSample.max // UInt16.max
+
+
